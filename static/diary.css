@@ -1,0 +1,125 @@
+
+.index-scroll {
+    height: 400px;
+    overflow-y: auto;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.calender {
+    flex: 0.1;
+}
+
+.index {
+    flex: 0.9;
+}
+
+
+.date-box {
+    border: 1px solid #e7e7e7;
+    display: flex;
+    align-items: center;
+}
+
+.today {
+    text-align: center;
+    color: #3b87ab;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.date-list {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.date {
+    flex: 0 0 1.5rem;
+    color: #707070;
+    cursor: pointer;
+    text-align: center;
+}
+
+.color-red {
+    color: red;
+}
+
+.color-blue {
+    color: blue;
+}
+
+.index {
+    margin-top: 15px;
+    border: 1px solid #e7e7e7;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+}
+
+.contents {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+span {
+    color: rgb(80, 80, 182);
+}
+
+.secret {
+    margin-top: 30px;
+    margin-left: 150px;
+    height: 55px;
+    width: 200px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+}
+
+.secret:hover {
+    background-color: #3b87ab;
+    transition: 2000ms ease all;
+}
+
+
+#secret-box {
+    display: none;
+}
+
+.diary-button {
+    color: white
+}
+
+.button-box{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.diary-container{
+    flex: 0.5;
+}
+
+.diary-box{
+    border: 1px solid #e7e7e7;
+    margin-top: 15px;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+}
+
+.diary-text {
+    text-align: center;
+}
+
+.secret-span {
+    color: rgb(80, 80, 182);
+}

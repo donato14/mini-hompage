@@ -1,0 +1,200 @@
+body {
+    background-image: url("../images/pattern.png");
+    background-color: #a3a3a3;
+    background-size: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    /* width: 1904px;
+    height: 638px; */
+}
+
+li {
+    list-style: none;
+}
+
+.bookcover {
+    width: 960px;
+    height: 660px;
+    margin: 100px auto;
+    background-color: #b4d1da;
+    border-radius: 10px;
+    border: 1px solid #738186;
+    position: relative;
+}
+
+.bookdot {
+    border: 1px dashed white;
+    border-radius: 10px;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    left: 12px;
+    bottom: 12px;
+}
+
+.page {
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+}
+
+.main-page {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    padding: 20px;
+    display: flex;
+}
+
+.profile-container {
+    flex: 0.4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 13px;
+}
+
+.short-menu {
+    flex: 0.07;
+}
+
+.short-menu #visitor {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+    list-style: none;
+}
+
+#redWord {
+    color: red;
+}
+
+.introduce {
+    flex: 1;
+    background-color: white;
+    border-radius: 10px;
+    border: solid 1px  rgb(214, 213, 213);
+}
+
+
+.introduce #profileImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.profile p {
+    margin-left: 32px;
+    margin-right: 32px;
+    font-size: 13px;
+}
+
+.profile #name {
+    margin-top: 120px;
+}
+
+/* ----------- */
+.profile-dropdown {
+    flex: 0;
+    border: 1px solid #c9d4da;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    position: relative;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 4.5px solid transparent;
+    border-right: 4.5px solid transparent;
+    border-top: 5px solid #838383;
+}
+
+.dropdown-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.profile-dropdown:hover > .dropdown-content {
+    display: block;
+}
+
+.dropdown-content > a {
+    display: block;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding: 6px;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-content > a:hover {
+    background-color: #f1f1f1;
+}
+
+/* ---------- */
+
+.storyboard {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 13px;
+}
+
+.main-title {
+    flex: 0.07;
+    display: flex;
+}
+
+.page-title {
+    flex: 0.5;
+}
+
+.page-title #title {
+    font-size: 15px;
+    text-align: left;
+    margin-top: 12px;
+    /* font-family: 'Nanum Pen Script'; */
+
+}
+
+
+
+.page-address {
+    flex: 0.5;
+}
+
+.page-address #url {
+    font-size: 15px;
+    text-align: right;
+    margin-top: 12px;
+}
+
+/* 
+.box {
+    border: 1px solid grey;
+} */
+
+

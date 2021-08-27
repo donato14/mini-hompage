@@ -1,0 +1,32 @@
+
+.photo-scroll {
+    height: 500px;
+    overflow-y: auto;
+}
+
+.photo-title {
+    background-color: #f3e0f7;
+    margin: 10px;
+    padding:10px;
+    font-size: 13px;
+}
+
+.photo-img {
+    text-align: center;
+}
+
+.photo-title span {
+    float: right;
+}
+
+.photo-text {
+    margin-left:15px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,203 @@
+.category {
+    flex: 1;
+    background-color: white;
+    border: solid 1px  rgb(214, 213, 213);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.category1 {
+    flex: 0.1;
+}
+
+.category1 #miniTitle {
+    text-align: left;
+    border-bottom: solid 1px gray;
+    color: rgb(120, 120, 185);
+    font-weight: bold;
+    /* font-family: 'Nanum Pen Script'; */
+    font-size: 15px;
+}
+
+
+
+.category2 {
+    flex: 0.5;
+    display: flex;
+    flex-direction: row;
+}
+
+.category3 {
+    flex: 1;
+}
+
+.noticeBoard {
+    margin-top: 0px;
+    font-size: 13px;
+}
+
+.noticeBoard li {
+    margin-bottom: 3px;
+    font-family: 'Noto Serif KR', serif;
+}
+
+#photo {
+    margin-left: -38px;
+    background-color: rgb(233, 135, 90);
+    border-radius: 3px;
+    color: white;
+}
+
+#write {
+    margin-left: -38px;
+    background-color: rgb(88, 109, 230);
+    border-radius: 3px;
+    color: white;
+}
+
+#travel {
+    margin-left: -38px;
+    background-color: rgb(117, 91, 100);
+    border-radius: 3px;
+    color: white;
+}
+
+.mini-noticed {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#link {
+    font-size: 11px;
+    border-bottom: dashed 0.5px black;
+}
+
+.mini-menu1 {
+    flex: 0.3;
+    display: flex;
+    flex-direction: row;
+}
+
+.diary {
+    flex: 1;
+}
+
+.photo-book {
+    flex: 1;
+}
+
+
+.mini-menu2 {
+    flex: 0.3;
+    display: flex;
+    flex-direction: row;
+}
+
+.noticedboard {
+    flex: 1;
+}
+
+.visitors-book {
+    flex: 1;
+}
+
+
+.blank {
+    flex: 1;
+}
+
+.miniroom {
+    flex: 0.1;
+}
+
+.my-miniroom li {
+    margin-left: -38px;
+    text-align: left;
+    border-bottom: solid 1px gray;
+    color: rgb(120, 120, 185);
+    font-weight: bold;
+    /* font-family: 'Nanum Pen Script'; */
+    font-size: 15px;
+}
+
+.miniroom-picture {
+    flex: 1.2;
+    background-image: url("../images/original.gif");
+    background-size: 255px;
+}
+
+
+.short-cut-menu {
+    flex: 0.15;
+    /* border: 1px solid grey; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    /* padding-bottom: 20px; */
+}
+
+.short-home {
+    flex: 0.16;
+    background-color: rgb(124, 108, 160);
+    border: 2px solid #a78b8b;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.short-home:hover {
+    background-color: rgb(166, 11, 238);
+}
+
+.short-diary {
+    flex: 0.16;
+    background-color: rgb(124, 108, 160);
+    border: 2px solid #a78b8b;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.short-diary:hover {
+    background-color: rgb(166, 11, 238);
+}
+
+.short-photo {
+    flex: 0.16;
+    background-color: rgb(124, 108, 160);
+    border: 2px solid #a78b8b;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.short-photo:hover {
+    background-color: rgb(166, 11, 238);
+}
+
+.short-visitor {
+    flex: 0.16;
+    background-color: rgb(124, 108, 160);
+    border: 2px solid #a78b8b;
+    border-radius: 5px;
+}
+
+.short-visitor:hover {
+    background-color: rgb(166, 11, 238);
+}
+
+#short-cut-font {
+    font-size: 15px;
+    margin-left: 7px;
+    margin-top: 6px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.blank2 {
+    flex: 2;
+}

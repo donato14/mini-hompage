@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/fonts.css">
+    <link rel="stylesheet" href="static/layout.css">
+    <link rel="stylesheet" href="static/diary.css">
+    <link rel="stylesheet" href="static/home.css">
+
+    
+    <title>2021 MINI HOMPAGE</title>
+</head>
+<body>
+    <div class="bookcover">
+        <div class="bookdot">
+            <div class="page">
+                <div class="main-page">
+                    <div class="profile-container">
+                        <div class="short-menu box">
+                            <li id="visitor">TODAY <span id="redWord">28</span> | TOTAL 234918</li>
+                        </div>
+                        <div class="introduce box">
+                            <div class="profile">
+                                <img id=profileImg src="images/unnamed.jpg" width="150px">
+                                <p>코딩도 잘하고 싶고,</p>
+                                <p>미술도 잘 알고 싶은데 왜 둘 다 어려울까?</p> 
+                                <p>왜 재미있는건 다 어렵지? </p>
+                                <p id="name">도네토</p>
+                                <div class="profile-dropdown">
+                                    <div class="dropdown-btn">
+                                        <div class="dropdown-title">파도타기</div>
+                                        <div class="triangle-down"></div>
+                                    </div>
+                                    <div class="dropdown-content">
+                                        <a href="https://cafe.naver.com/codeuniv" target="_blank">코뮤니티로 가기</a>
+                                        <a href="https://www.instagram.com/donatou79/" target="_blank"
+                                        >인스타그램으로 가기</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="storyboard">
+                        <div class="main-title box">
+                            <div class="page-title box">
+                                <li id="title">여행과 미술</li>
+                            </div>
+                            <div class="page-address box">
+                                <li id="url">https://urs주소/나중에입력</li>
+                            </div>
+                        </div>
+                        <div class="category box">
+                            <div class="calender box">
+                                <div class="date-box font-neo">
+                                    <div class="today">08.23<br />MON</div>
+                                    <div class="date-list">
+                                        <div class="date"><span class="color-red">1</span></div>
+                                        <div class="date">2</div>
+                                        <div class="date">3</div>
+                                        <div class="date">4</div>
+                                        <div class="date">5</div>
+                                        <div class="date">6</div>
+                                        <div class="date"><span class="color-blue">7</span></div>
+                                        <div class="date"><span class="color-red">8</span></div>
+                                        <div class="date">9</div>
+                                        <div class="date">10</div>
+                                        <div class="date">11</div>
+                                        <div class="date">12</div>
+                                        <div class="date">13</div>
+                                        <div class="date"><span class="color-blue">14</span></div>
+                                        <div class="date"><span class="color-red">15</span></div>
+                                        <div class="date">16</div>
+                                        <div class="date">17</div>
+                                        <div class="date">18</div>
+                                        <div class="date">19</div>
+                                        <div class="date">20</div>
+                                        <div class="date"><span class="color-blue">21</span></div>
+                                        <div class="date"><span class="color-red">22</span></div>
+                                        <div class="date">23</div>
+                                        <div class="date">24</div>
+                                        <div class="date">25</div>
+                                        <div class="date">26</div>
+                                        <div class="date">27</div>
+                                        <div class="date"><span class="color-blue">28</span></div>
+                                        <div class="date"><span class="color-red">29</span></div>
+                                        <div class="date">30</div>
+                                        <div class="date">31</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="index-scroll">
+                                <div class="index box">
+                                    <span>2021.08.23 월 16:57</span><br><p class="contents">열심히 미니홈피 코딩을 하고 있는 중인데... <br><br>어디에서 문제가 있는건지 자꾸<br>원치않는 오류가 생긴다... <br><br>너무 화나지만 난 지성인이니까<br><br> 욕을 다시한번 참아본다...</p>
+                                </div>
+                                <div class="index box">
+                                    <span>2019.08.23 월 17:09</span><br><p class="contents">여행가고 싶다.<br>진짜로 가고싶다.<br><br>2주뒤면 6개월간 강남으로 학원에 등하교하는데<br>내년 3월까지는 꼼짝없이<br><br>여행도 못 갈텐데 너무 아쉽다.. <br><br><br>일본 당일치기라도 다녀와야 하는 걸까..?</p>
+                                </div>
+                                <div class="index box">
+                                    <span>2019.08.23 월 17:39</span><br><p class="contents">지성이면 감천이다<br><br>하기 지겨워도 꾹 참고 하자<br>6개월 뒤면 성공한 나를 볼 수 있을꺼야<br>평생 공부해야겠지만<br><br>버텨보자구</p>
+                                </div>
+                                <div class="secret box">
+                                    <div class="button-box">
+                                        <a class="diary-button" onclick="getTextFile()">
+                                                도네토의 비밀일기 보기
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="diary-container">
+                                    <div class="diary-box" id="secret-box">
+                                    <div class="diary-date"><span class=secret-span>도네토의 비밀 일기<br><br></span></div>
+                                    <div class="diary-text" id="secret-diary"></div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="short-cut-menu box">
+                        <div class="short-home"><li id="short-cut-font"><a href="./home.html">HOME</a></li></div>
+                        <div class="short-diary"><li id="short-cut-font"><a href="./diary.html">DIARY</a></li></div>
+                        <div class="short-photo"><li id="short-cut-font"><a href="./photo.html">PHOTO</a></li></div>
+                        <div class="short-visitor"><li id="short-cut-font"><a href="./visitors.html">VISITOR</a></li></div>
+                        <div class="blank2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+    function getTextFile() {
+        var input = document.createElement("input");
+        input.type = "file";
+        input.accept = "text/plain";
+        input.onchange = function (event) {
+            processFile(event.target.files[0]);
+        };
+    input.click();
+}
+
+function processFile(file) {
+    var reader = new FileReader();
+    reader.readAsText(file, "utf-8");
+
+    reader.onload = function () {
+        document.getElementById("secret-diary").innerText = reader.result;
+        document.getElementById("secret-box").style.display = "block";
+    };
+}
+</script>
+</body>
+</html>
