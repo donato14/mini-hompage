@@ -1,3 +1,3 @@
 # mini-hompage
 
-https://donato14.github.io/mini-hompage/index.html
+https://donato14.github.io/mini-hompage/home.html
